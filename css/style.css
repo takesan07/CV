@@ -165,6 +165,7 @@ td{
 .video iframe{
   margin :20px auto 0;
   display: block;
+  width: 90%;
 }
 
 .video h4{
@@ -205,6 +206,7 @@ td{
 #sponsors{
   background-color: #364549;
   padding: 20px;
+  width: 100%;
 }
 
 #sponsors h3{
@@ -361,6 +363,40 @@ td{
 .slick img{
   height: 400px;
 }
-  
  
+}
+
+@media(max-width:500px){
+
+  .takepage{
+    width: 100%;
+    left: 0%;
+  }
+  
+  .header-bar{
+    width: 100%;
+    padding: 10px 1px;
+  }
+
+  .header-bar a{
+   font-size: 10px;
+  }
+
+  #sponsors{
+    padding: 40px 0 0 0;
+    width: 100%;
+  }
+  
+  #sponsors h3{
+    margin: 0 0 20px 20px;
+  }
+ 
+  .sponsor img{
+    height: 70px;
+  }
+  
+  .sponsor h4{
+    margin-bottom: 10px;
+  }
+  
 }
