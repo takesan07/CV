@@ -399,4 +399,10 @@ td{
     margin-bottom: 10px;
   }
   
+  .contact-form button{
+    width: 20%;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+  }
+  
 }
