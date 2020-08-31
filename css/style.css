@@ -77,7 +77,7 @@ header{
 
 .header-bar{
   display: flex;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   justify-content: space-between;
   padding: 10px 0;
@@ -86,6 +86,7 @@ header{
 .header-bar a{
   color: #fff;
   transition: all 400ms;
+  font-size:12px;
 }
 
 .header-bar a:hover{
