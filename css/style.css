@@ -263,37 +263,6 @@ td{
   text-decoration-color: goldenrod;
 }
 
-.contact-form{
-  margin: 0 auto;
-}
-
-.contact-form input{
-  margin: 0 auto 10px;
-  display: block;
-  width: 60%;
-  height: 30px;
-  padding-left: 10px;
-}
-
-.contact-form textarea{
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  padding: 10px;
-}
-
-.contact-form button{
-  display: block;
-  width: 20%;
-  height: 40px;
-  background-color:#364549 ;
-  color: #fff;
-  margin: 20px auto 0;
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 1.5px;
-}
-
 @media(min-width  :1000px){
   .first{
     background-position: top;
@@ -397,12 +366,6 @@ td{
   
   .sponsor h4{
     margin-bottom: 10px;
-  }
-  
-  .contact-form button{
-    width: 20%;
-    font-size: 14px;
-    letter-spacing: 1.2px;
   }
   
 }
