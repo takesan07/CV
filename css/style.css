@@ -86,7 +86,7 @@ header{
 .header-bar a{
   color: #fff;
   transition: all 400ms;
-  font-size:12px;
+  font-size: 12px;
 }
 
 .header-bar a:hover{
@@ -109,7 +109,7 @@ header{
   letter-spacing: 1px;
 }
 
-.sns{
+ #about .sns{
   position: absolute;
   right: 20px;
   top :39px;
@@ -207,7 +207,6 @@ td{
 #sponsors{
   background-color: #364549;
   padding: 20px;
-  width: 100%;
 }
 
 #sponsors h3{
@@ -264,7 +263,13 @@ td{
   text-decoration-color: goldenrod;
 }
 
+#contact i{
+  font-size: 30px;
+  margin: 10px 20px 0 0;
+}
+
 @media(min-width  :1000px){
+
   .first{
     background-position: top;
   }
